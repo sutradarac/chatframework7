@@ -126,16 +126,18 @@ var routes = [
         path: '/',
         url: './index.html',
         name: 'index',
+        routes: [
+            {
+                path: '/home/',
+                url: './pages/home.html',
+                name: 'home',
+            }
+        ]
     },
     {
         path: '/chat/',
         url: './pages/chat.html',
         name: 'chat',
-    },
-    {
-        path: '/home/',
-        url: './pages/home.html',
-        name: 'home',
     },
     {
         path: '(.*)',
@@ -214,7 +216,7 @@ var app = new Framework7({
         iosSwipeBackAnimateOpacity: false,
         iosSwipeBackActiveArea: 30,
         iosSwipeBackThreshold: 0,
-        pushState: false,
+        pushState: true,
         pushStateAnimate: true,
         pushStateAnimateOnLoad: true,
         pushStateSeparator: '#!',
