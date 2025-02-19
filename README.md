@@ -13,7 +13,9 @@
   ## 🚀 Quick Start
   
   Get up and running with these simple steps:
-  
+  > Buat Project di Firebase <
+  > Aktifkan "Authentication" "Email/Password" <
+  > Aktifkan "Cloud Firestore" <
   ```bash
   # Clone the repository
   git clone https://github.com/sutradarac/chatframework7.git
