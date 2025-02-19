@@ -2,15 +2,6 @@
   
   # Realtime Chat Google Firebase		
   
-  [Overview](#📋-overview) •
-  [Quick Start](#🚀-quick-start) •
-  [Installation](#💻-installation) •
-  [Configuration](#⚙️-configuration) •
-  [Usage](#📘-usage) •
-  [Parameters](#📊-parameters) •
-  [Integration](#🔗-integration) •
-  [Troubleshooting](#🔍-troubleshooting)
-  
 </div>
   
   ---
